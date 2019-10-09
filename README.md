@@ -9,7 +9,7 @@ A theme extension for JupyterLab with the GenePattern logo and colors.
 ## Installation
 
 ```bash
-jupyter labextension install genepattern-theme-extension
+jupyter labextension install @genepattern/genepattern-theme-extension
 ```
 
 ## Development
