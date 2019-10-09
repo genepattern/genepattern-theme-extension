@@ -16,3 +16,12 @@ pre {
   font-size: var(--jp-code-font-size);
   line-height: var(--jp-code-line-height);
 }
+
+#jp-MainLogo {
+  background-size: 125px;
+}
+
+.jp-extensionmanager-entry-jupyter-org {
+  background-size: 95px;
+}
+
