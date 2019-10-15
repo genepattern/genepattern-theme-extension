@@ -25,3 +25,8 @@ pre {
   background-size: 95px;
 }
 
+.jp-Cell-outputArea,
+.jp-OutputArea-child,
+.jp-OutputArea-output {
+  overflow: visible !important;
+}
