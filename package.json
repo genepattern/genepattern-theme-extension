@@ -54,7 +54,7 @@
     "extension": true,
     "themePath": "style/index.css"
   },
-  "homepage": "https://genepattern-notebook.org",
+  "homepage": "https://notebook.genepattern.org",
   "bugs": {
     "url": "https://github.com/genepattern/genepattern-theme-extension/issues"
   },
