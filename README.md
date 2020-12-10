@@ -4,7 +4,7 @@ A theme extension for JupyterLab with the GenePattern logo and colors.
 
 ## Prerequisites
 
-* JupyterLab
+* JupyterLab >= 2.0.0
 
 ## Installation
 
@@ -19,6 +19,7 @@ For a development install (requires npm version 4 or later), do the following in
 ```bash
 npm install
 jupyter labextension link .
+jupyter labextension install .
 ```
 
 To rebuild the package and the JupyterLab app:
