@@ -4,7 +4,7 @@ A theme extension for JupyterLab with the GenePattern logo and colors.
 
 ## Prerequisites
 
-* JupyterLab >= 2.0.0
+* JupyterLab >= 3.0.0
 
 ## Installation
 
