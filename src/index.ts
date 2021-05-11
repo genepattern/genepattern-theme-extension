@@ -1,6 +1,6 @@
 import { ILabShell, JupyterFrontEnd, JupyterFrontEndPlugin } from '@jupyterlab/application';
 import { IThemeManager } from '@jupyterlab/apputils';
-import { LabIcon } from '@jupyterlab/ui-components';
+import { LabIcon, jupyterFaviconIcon, jupyterIcon, jupyterlabWordmarkIcon } from '@jupyterlab/ui-components';
 import { Widget } from '@lumino/widgets';
 
 /**
@@ -27,6 +27,11 @@ const plugin: JupyterFrontEndPlugin<void> = {
         });
         logo.id = 'jp-GenePatternLogo';
         shell.add(logo, 'top', { rank: 0 });
+
+        // Set the icons elsewhere
+        jupyterFaviconIcon.svgstr = gp_svg_string;
+        jupyterIcon.svgstr = gp_svg_string;
+        jupyterlabWordmarkIcon.svgstr = gp_svg_string;
 
         // Register the plugin
         manager.register({
