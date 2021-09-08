@@ -1,4 +1,6 @@
 :root {
+  --jp-widgets-margin: 0; /* Added to make widgets line up correctly  */
+
   /* Elevation
    *
    * We style box-shadows using Material Design's idea of elevation. These particular numbers are taken from here:
